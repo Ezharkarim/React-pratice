@@ -4,7 +4,7 @@ const Items = () => {
   const inputref = useRef(null);
   const handleclick = () => {
     inputref.current.value = ""; 
-  }
+  } 
   return (
     <div
       style={{
